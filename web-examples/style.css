@@ -61,7 +61,25 @@ button{
 }
 
 /*// POP-UP ANIMATION STYLES //*/
+#pop-up {
+  top: -400px;
+  transform-origin: top left;
+  animation: drop 1s ease forwards,
+             swing 2s 3s ease forwards;
+}
 
+@keyframes drop {
+  0% { opacity: 0; }
+  70% { transform: translateY(600px); }
+  100% { transform: translateY(550px); opacity: 1; }
+}
+
+@keyframes swing {
+  0% { transform: translateY(550px) rotateZ(0deg) }
+  40% { transform: translateY(550px) rotateZ(90deg) }
+  70% { transform: translateY(550px) rotateZ(70deg) }
+  100% { transform: translateY(550px) rotateZ(75deg) }
+}
 
 /*// BASKET BASE STYLES //*/
 
