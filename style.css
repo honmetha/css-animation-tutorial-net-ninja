@@ -18,10 +18,16 @@ body {
   color: white;
   border-radius: 50px;
   cursor: pointer;
-  transition: background 1s, transform 1s 1s ease;
+  transition: background 1s, transform 1s ease;
 }
 
 .circle:hover {
   background: salmon;
   transform: rotate(360deg);
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20%;
 }
