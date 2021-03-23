@@ -1,7 +1,6 @@
 # CSS Animation Tutorial
 
-Check out the [Demo](https://honmetha.github.io/css-animation-tutorial-net-ninja/)
-Learn this [Tutorial](https://www.youtube.com/watch?v=jgw82b5Y2MU&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5)
+Check out the [DEMO](https://honmetha.github.io/css-animation-tutorial-net-ninja/) or learn this tutorial [HERE!](https://www.youtube.com/watch?v=jgw82b5Y2MU&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5)
 
 ### Mario Kart
 
