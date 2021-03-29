@@ -34,11 +34,30 @@ body {
 }
 
 .mario:hover {
-  animation: bounce 1s ease infinite ;
+  animation: bounce 1s ease infinite;
 }
 
 @keyframes bounce {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-25px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.t-shirt:hover {
+  animation: vanish 0.5s linear;
+}
+
+@keyframes vanish {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
