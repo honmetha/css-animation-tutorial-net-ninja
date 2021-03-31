@@ -61,3 +61,40 @@ body {
     opacity: 0;
   }
 }
+
+.rotating-card {
+  width: 100%;
+  padding: 50% 0;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.front {
+  position: absolute;
+}
+
+.back {
+  transform: rotateY(90deg);
+}
+
+.front {
+  animation: twirl 0.2s ease-in forwards;
+}
+
+.back {
+  animation: twirl 0.2s 0.2s ease-in forwards reverse;
+}
+
+@keyframes twirl {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(90deg);
+  }
+}
