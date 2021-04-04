@@ -50,7 +50,7 @@ body {
 }
 
 .t-shirt:hover {
-  animation: vanish 0.5s linear;
+  animation: vanish 0.5s linear infinite;
 }
 
 @keyframes vanish {
