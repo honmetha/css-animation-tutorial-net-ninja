@@ -33,6 +33,7 @@ body {
   padding: 0px 20%;
 }
 
+/* Mario */
 .mario:hover {
   animation: bounce 1s ease infinite;
 }
@@ -49,6 +50,7 @@ body {
   }
 }
 
+/* T-Shirt */
 .t-shirt:hover {
   animation: vanish 0.5s linear infinite;
 }
@@ -62,31 +64,46 @@ body {
   }
 }
 
-.rotating-card {
+/* Rotating Cards */
+.panels {
+  list-style-type: none;
+  padding: 0;
+}
+
+.panels li {
+  position: relative;
+  width: 100px;
+  margin: 0;
+  display: block;
+  box-sizing: border-box;
+  float: left;
+}
+
+.panels li div {
   width: 100%;
   padding: 50% 0;
   text-align: center;
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 0;
   cursor: pointer;
 }
 
-.front {
-  position: absolute;
-}
-
-.back {
+.panels div.back {
   transform: rotateY(90deg);
 }
 
-.front {
+.panels div.front {
+  position: absolute;
+}
+
+.panels li:hover div.front {
   animation: twirl 0.2s ease-in forwards;
 }
 
-.back {
+.panels li:hover div.back {
   animation: twirl 0.2s 0.2s ease-in forwards reverse;
 }
 
